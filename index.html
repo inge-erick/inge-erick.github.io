@@ -30,7 +30,7 @@
     <style>
 
         /* =====================================================
-           VARIABLES
+            VARIABLES
         ===================================================== */
 
         :root {
@@ -71,7 +71,7 @@
 
 
         /* =====================================================
-           RESET
+            RESET
         ===================================================== */
 
         * {
@@ -107,7 +107,7 @@
 
 
         /* =====================================================
-           BACKGROUND EFFECTS
+            BACKGROUND EFFECTS
         ===================================================== */
 
         body::before {
@@ -171,7 +171,7 @@
 
 
         /* =====================================================
-           CONTAINER
+            CONTAINER
         ===================================================== */
 
         .container {
@@ -188,7 +188,7 @@
 
 
         /* =====================================================
-           HEADER
+            HEADER
         ===================================================== */
 
         header {
@@ -301,7 +301,7 @@
 
 
         /* =====================================================
-           SOCIAL LINKS
+            SOCIAL LINKS
         ===================================================== */
 
         .social-links {
@@ -363,7 +363,7 @@
 
 
         /* =====================================================
-           PROJECT SECTION
+            PROJECT SECTION
         ===================================================== */
 
         #proyectos {
@@ -427,7 +427,7 @@
 
 
         /* =====================================================
-           PROJECT GRID
+            PROJECT GRID
         ===================================================== */
 
         .grid {
@@ -443,7 +443,7 @@
 
 
         /* =====================================================
-           CARD
+            CARD
         ===================================================== */
 
         .card {
@@ -501,6 +501,10 @@
             animation-delay: 0.60s;
         }
 
+        .card:nth-child(7) {
+            animation-delay: 0.70s;
+        }
+
 
         .card:hover {
 
@@ -517,7 +521,7 @@
 
 
         /* =====================================================
-           PROJECT IMAGE
+            PROJECT IMAGE
         ===================================================== */
 
         .project-image {
@@ -560,7 +564,7 @@
 
 
         /* =====================================================
-           IMAGE LIGHT EFFECT
+            IMAGE LIGHT EFFECT
         ===================================================== */
 
         .project-image::after {
@@ -602,7 +606,7 @@
 
 
         /* =====================================================
-           IMAGE OVERLAY
+            IMAGE OVERLAY
         ===================================================== */
 
         .image-overlay {
@@ -692,7 +696,7 @@
 
 
         /* =====================================================
-           CARD CONTENT
+            CARD CONTENT
         ===================================================== */
 
         .card-content {
@@ -752,7 +756,7 @@
 
 
         /* =====================================================
-           TECHNOLOGIES
+            TECHNOLOGIES
         ===================================================== */
 
         .tech-stack {
@@ -808,7 +812,7 @@
 
 
         /* =====================================================
-           BUTTON
+            BUTTON
         ===================================================== */
 
         .btn {
@@ -915,7 +919,7 @@
 
 
         /* =====================================================
-           FOOTER
+            FOOTER
         ===================================================== */
 
         footer {
@@ -947,7 +951,7 @@
 
 
         /* =====================================================
-           ANIMATIONS
+            ANIMATIONS
         ===================================================== */
 
         @keyframes fadeDown {
@@ -1023,7 +1027,7 @@
 
 
         /* =====================================================
-           RESPONSIVE TABLET
+            RESPONSIVE TABLET
         ===================================================== */
 
         @media (max-width: 850px) {
@@ -1046,7 +1050,7 @@
 
 
         /* =====================================================
-           RESPONSIVE MOBILE
+            RESPONSIVE MOBILE
         ===================================================== */
 
         @media (max-width: 600px) {
@@ -1121,7 +1125,7 @@
 
 
         /* =====================================================
-           REDUCE MOTION
+            REDUCE MOTION
         ===================================================== */
 
         @media (prefers-reduced-motion: reduce) {
@@ -1795,6 +1799,102 @@
 
                     <a
                         href="https://github.com/inge-erick/car-price-prediction-optimization"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn">
+
+                        Ver Proyecto
+
+                        <i class="fas fa-arrow-right"></i>
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PROJECT 07 (TESIS: APÓYAME AI)
+            ================================================= -->
+
+            <article class="card">
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/apoyame.jpg"
+                        alt="Visualización de plataforma Apóyame AI Crowdfunding"
+                        loading="lazy"
+                    >
+
+
+                    <div class="image-overlay">
+
+                        <div class="overlay-content">
+
+                            <span class="overlay-label">
+
+                                AI & Fintech Architecture
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card-content">
+
+
+                    <span class="project-number">
+                        PROYECTO 07 (TESIS)
+                    </span>
+
+
+                    <h3>
+                        Apóyame AI - Crowdfunding Seguro
+                    </h3>
+
+
+                    <p>
+
+                        Plataforma web de financiamiento colectivo con validación biométrica facial (INE + Prueba de vida), pasarela de pagos con Stripe y motor de gobernanza/liberación de fondos por etapas.
+
+                    </p>
+
+
+                    <div class="tech-stack">
+
+                        <span class="tech-badge">
+                            Python
+                        </span>
+
+                        <span class="tech-badge">
+                            FastAPI
+                        </span>
+
+                        <span class="tech-badge">
+                            PostgreSQL
+                        </span>
+
+                        <span class="tech-badge">
+                            pgvector
+                        </span>
+
+                        <span class="tech-badge">
+                            Stripe API
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/inge-erick/apoyame-saas"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="btn">
